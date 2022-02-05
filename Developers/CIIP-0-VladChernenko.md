@@ -146,7 +146,7 @@ On the other side,insofar as <b>KLYNTAR</b> supports raw control and access to r
 //___________________KLY_Custom/MY_NODES_TRACKER_VENOM/track.js___________________
 
 //import mapping of chains
-import {chains} from '../klyn74r.js'
+import {chains} from '../../klyn74r.js'
 
 //Get an array of nodes for 
 let nodes=chains.get(<YOUR_SYMBIOTE_CHAIN_ID>).NEAR,
