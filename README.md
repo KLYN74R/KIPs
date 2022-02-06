@@ -1,4 +1,4 @@
-![Alt Text](main2.gif)
+![Alt Text](main.gif)
 
 
 <div align="center">
