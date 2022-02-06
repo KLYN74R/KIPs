@@ -11,8 +11,7 @@
 
 <b>Date</b>:05.02.2022</br>
 <b>Author</b>:Vlad Chernenko</br>
-<b>Contacts</b>:Telegram:@VladChernenk0 //(last is zero,not letter "o")</br>
-
+<b>Contacts</b>:[Telegram:@VladChernenk0](https://t.me/Vlad_Chernenk0)//(last is zero,not letter "o")
 
 </br></br>
 
