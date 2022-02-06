@@ -1,13 +1,33 @@
 <div align="center">
 
+<span style="color:#F74165">
+
 # Two threads of semver for more flexibility
-## THREAD => KLYNTAR
+## THREAD <span style="color:#28E9C3">=></span> KLYNTAR
+</span>
 
 </div>
 
 <br><br>
 
-### <b>Abstract</b>
+<span style="color:#28E9C3">
+
+# <b>Authors & Metadata</b>
+
+</span>
+
+<b>Date</b>:05.02.2022</br>
+<b>Author</b>:Vlad Chernenko</br>
+<b>Contacts</b>:[Telegram:@VladChernenk0](https://t.me/Vlad_Chernenk0)//(last is zero,not letter "o")
+
+</br></br>
+
+<span style="color:#28E9C3">
+
+# <b>Motivation</b>
+
+</span>
+
 
 Version tracking is very important to keep backward compatibility and bring new features. Due to architecture of Klyntar and symbiotes based on it,we propose to track 2 threads of versioning.
 

@@ -1,13 +1,20 @@
 <div align="center">
 
+<span style="color:#F74165">
+
 # CPE | CVSS similar format for nodes set exchanges
-## THREAD => KLYNTAR
+## THREAD <span style="color:#28E9C3">=></span> KLYNTAR
+</span>
 
 </div>
 
 </br></br>
 
+<span style="color:#28E9C3">
+
 # <b>Authors & Metadata</b>
+
+</span>
 
 <b>Date</b>:05.02.2022</br>
 <b>Author</b>:Vlad Chernenko</br>
@@ -15,7 +22,12 @@
 
 </br></br>
 
+<span style="color:#28E9C3">
+
 # <b>Motivation</b>
+
+</span>
+
 </br>
 
 To make the process of initial connection(and further connections) between different nodes on <b>KLYNTAR</b> more advanced I propose to add some more logic to default API routes(stored in <i>KLY_Routes/api.js</i>) and configuration without code changes. As default nodes use <b>Phisher_Yeits algorithm</b> to response other nodes with random subsets of nodes. In the same time, you also can set static nodes sets in your configuration of symbiote you're working on. But it will be better to get sets of nodes following some advanced logic.
@@ -72,7 +84,11 @@ fetch(CONFIG.CHAINS[chainID].CONTROLLER.ADDR+'/nodes/'+Buffer.from(chainID,'base
 ```
 </br></br>
 
+<span style="color:#28E9C3">
+
 # <b>Proposition</b>
+
+</span>
 
 ## The basic proposition is to make <b>REGION</b> not only location close to the node,let's allow different subsets of nodes to have own rules</br></br>
 
@@ -133,7 +149,11 @@ And it means that received subset supports <b>MULTI-multitransfer</b>(transfer m
 
 </br></br>
 
+<span style="color:#28E9C3">
+
 # <b>How it can be implemented</b>
+
+</span>
 
 As I've promised you,it can be implemented without great code changes. The first step-if it was announced that some source support such advaced mechanisms,change your <b>REGION</b> following instructions.
 On the other side,insofar as <b>KLYNTAR</b> supports raw control and access to root workflow of process via custom runtime scripts in <b>KLY_Custom/<YOUR_PROJECT_DIR>/<SCRIPT_ITSELF></b>,you can get access to your sets of nodes for each chain, handle newbies from your local list and,using value of <b>REGION</b>,provide your own operations over sets.</br></br>
