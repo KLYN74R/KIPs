@@ -38,7 +38,7 @@ To make the process of initial connection(and further connections) between diffe
 
 ```js
 
-fetch(CONFIG.CHAINS[chainID].CONTROLLER.ADDR+'/nodes/'+Buffer.from(chainID,'base64').toString('hex')+'/'+CONFIG.CHAINS[chainID].REGION)
+fetch(CONFIG.SYMBIOTES[symbioteID].CONTROLLER.ADDR+'/nodes/'+symbioteID+'/'+CONFIG.CHAINS[symbioteID].REGION)
 
     .then(r=>r.json())
     
@@ -164,13 +164,13 @@ On the other side,insofar as <b>KLYNTAR</b> supports raw control and access to r
 
 //___________________KLY_Custom/MY_NODES_TRACKER_VENOM/track.js___________________
 
-//import mapping of chains
-import {chains} from '../../klyn74r.js'
+//import mapping of supported symbiotes
+import {symbiotes} from '../../klyn74r.js'
 
 //Get an array of nodes for 
-let nodes=chains.get(<YOUR_SYMBIOTE_CHAIN_ID>).NEAR,
+let nodes=symbiotes.get(<SYMBIOTE_ID>).NEAR,
 
-    rule=CONFIG.CHAINS[<YOUR_SYMBIOTE_CHAIN_ID>].REGION//get for example EU_FR:MULTI*I*C@20
+    rule=CONFIG.SYMBIOTES[<SYMBIOTE_ID>].REGION//get for example EU_FR:MULTI*I*C@20
 
 
 //...provide following logic here
