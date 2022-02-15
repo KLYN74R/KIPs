@@ -38,7 +38,7 @@ To make the process of initial connection(and further connections) between diffe
 
 ```js
 
-fetch(CONFIG.SYMBIOTES[symbioteID].CONTROLLER.ADDR+'/nodes/'+symbioteID+'/'+CONFIG.CHAINS[symbioteID].REGION)
+fetch(CONFIG.SYMBIOTES[symbioteID].CONTROLLER.ADDR+'/nodes/'+symbioteID+'/'+CONFIG.SYMBIOTES[symbioteID].REGION)
 
     .then(r=>r.json())
     
