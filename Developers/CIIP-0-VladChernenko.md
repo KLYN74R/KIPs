@@ -17,8 +17,8 @@
 </span>
 
 <b>Date</b>:05.02.2022</br>
-<b>Author</b>:Vlad Chernenko</br>
-<b>Contacts</b>:[Telegram:@VladChernenk0](https://t.me/Vlad_Chernenk0)//(last is zero,not letter "o")
+<b>Author</b>:Vlad Chernenko</br></br>
+<b>Contacts</b>:[<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">](https://t.me/Vlad_Chernenk0)[<img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white">](mailto:vladchernenko@protonmail.com)
 
 </br></br>
 
