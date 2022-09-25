@@ -38,7 +38,7 @@ To make the process of initial connection(and further connections) between diffe
 
 ```js
 
-fetch(CONFIG.SYMBIOTES[symbioteID].CONTROLLER.ADDR+'/nodes/'+symbioteID+'/'+CONFIG.SYMBIOTES[symbioteID].REGION)
+fetch(CONFIG.SYMBIOTE.CONTROLLER.ADDR+'/nodes/'+symbioteID+'/'+CONFIG.SYMBIOTE.REGION)
 
     .then(r=>r.json())
     
@@ -168,9 +168,9 @@ On the other side,insofar as <b>KLYNTAR</b> supports raw control and access to r
 import {symbiotes} from '../../klyn74r.js'
 
 //Get an array of nodes for 
-let nodes=symbiotes.get(<SYMBIOTE_ID>).NEAR,
+let nodes=SYMBIOTE_META.PEERS,
 
-    rule=CONFIG.SYMBIOTES[<SYMBIOTE_ID>].REGION//get for example EU_FR:MULTI*I*C@20
+    rule=CONFIG.SYMBIOTE.REGION//get for example EU_FR:MULTI*I*C@20
 
 
 //...provide following logic here
